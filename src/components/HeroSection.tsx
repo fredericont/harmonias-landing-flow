@@ -13,9 +13,14 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black/30"></div>
       
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
-          4 Harmonias
-        </h1>
+        <div className="mx-auto w-64 md:w-80 mb-8">
+          <img 
+            src="/lovable-uploads/c7b2b1e1-8285-4277-8808-ab50ac8bc4f7.png" 
+            alt="4 Harmonias Logo" 
+            className="w-full" 
+          />
+        </div>
+        
         <p className="text-xl md:text-2xl mb-8">
           Um canal sobre as melhores harmonias da vida: 
           <span className="block mt-2">

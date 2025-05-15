@@ -34,8 +34,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div>
-            <a href="#" className="text-white font-bold text-xl md:text-2xl">4 Harmonias</a>
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/c7b2b1e1-8285-4277-8808-ab50ac8bc4f7.png" 
+              alt="4 Harmonias Logo" 
+              className="h-12 md:h-16" 
+            />
           </div>
           
           {/* Desktop Navigation */}
