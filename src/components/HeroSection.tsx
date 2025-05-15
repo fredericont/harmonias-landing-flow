@@ -9,8 +9,15 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#722F37] to-[#B34336] text-white overflow-hidden">
-      <div className="absolute inset-0 bg-black/30"></div>
+    <div className="relative min-h-screen flex items-center justify-center text-white overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center z-0" 
+        style={{ backgroundImage: "url('/lovable-uploads/9251a0c2-8844-4c74-b448-a561e78f67b1.png')" }}
+      ></div>
+      
+      {/* Dark Overlay - using a stronger overlay for better text contrast */}
+      <div className="absolute inset-0 bg-black/60 z-0"></div>
       
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="mx-auto w-64 md:w-80 mb-8">
